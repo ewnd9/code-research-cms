@@ -4,4 +4,5 @@
   - `vite-rsc`
   - `react-router-data-rsc`
   - `react-router-framework-rsc`
+  - `tanstack-start-rsc`
 
