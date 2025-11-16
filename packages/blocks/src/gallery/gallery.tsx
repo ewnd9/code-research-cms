@@ -1,5 +1,5 @@
 import React from 'react';
-import { GalleryImage as GalleryImageClient } from '../../client/GalleryImage';
+import { GalleryImage as GalleryImageClient } from './GalleryImage';
 
 export interface GalleryImage {
   url: string;

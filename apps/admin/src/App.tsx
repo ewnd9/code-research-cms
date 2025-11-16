@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { PagesList } from './components/admin/PagesList';
-import { PageBuilder } from './components/admin/PageBuilder';
+import { PagesList } from './components/PagesList';
+import { PageBuilder } from './components/PageBuilder';
 import { PageView } from './pages/PageView';
 
 export const App: React.FC = () => {
