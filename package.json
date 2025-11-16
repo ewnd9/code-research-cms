@@ -1,0 +1,20 @@
+{
+  "name": "code-research-cms",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "bun --cwd apps/admin run dev",
+    "build": "bun --cwd apps/admin run build",
+    "preview": "bun --cwd apps/admin run preview",
+    "api": "bun --cwd apps/admin run api"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}

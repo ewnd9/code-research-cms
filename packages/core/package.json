@@ -1,0 +1,13 @@
+{
+  "name": "@cms/core",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "drizzle-orm": "^0.44.7"
+  },
+  "peerDependencies": {
+    "bun-types": "*"
+  }
+}
