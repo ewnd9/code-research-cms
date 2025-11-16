@@ -8,16 +8,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "bun run server/rsc-server.tsx",
-    "server:api": "bun run server/hono-server.tsx",
-    "start": "bun run --bun server/rsc-server.tsx"
+    "api": "bun run server/hono-server.tsx"
   },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
-    "@vitejs/plugin-rsc": "^0.5.1",
     "autoprefixer": "^10.4.22",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.17",

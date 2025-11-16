@@ -10,9 +10,8 @@
   "scripts": {
     "dev": "bun --cwd apps/admin run dev",
     "build": "bun --cwd apps/admin run build",
-    "server": "bun --cwd apps/admin run server",
-    "server:api": "bun --cwd apps/admin run server:api",
-    "start": "bun --cwd apps/admin run start"
+    "preview": "bun --cwd apps/admin run preview",
+    "api": "bun --cwd apps/admin run api"
   },
   "devDependencies": {
     "@types/bun": "latest",
